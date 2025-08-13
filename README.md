@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Loan Management System
+
+## Overview
+
+A comprehensive loan management system built with React, featuring a responsive design with light and dark theme support. The application provides functionality for loan application, approval, tracking, and repayment for both customers and administrators.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -39,15 +43,89 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Features
+
+- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
+- **Theme Switching**: Toggle between light and dark themes
+- **User Authentication**: Secure login and registration
+- **Dashboard**: Personalized dashboards for customers and administrators
+- **Loan Management**: Apply for loans, track status, and manage repayments
+- **Admin Controls**: Approve/reject loans, manage users, and view reports
+
+## Theme System
+
+The application includes a comprehensive theming system that allows users to switch between light and dark modes. The theme system includes:
+
+- **Theme Provider**: Context API-based theme management
+- **Theme Switcher**: UI component for toggling themes
+- **CSS Variables**: Theme-specific styling using CSS custom properties
+- **System Preference Detection**: Automatically applies the user's system preference
+- **Persistent Settings**: Remembers user's theme preference
+
+## Components
+
+The application is built with reusable components:
+
+### UI Components
+- Button
+- Card
+- Input
+- Select
+- Checkbox
+- Radio
+- TextArea
+- Modal
+- Loader
+- ThemeSwitcher
+
+### Layout Components
+- Header
+- Footer
+- Sidebar
+- Layout
+- DashboardLayout
+
+## Styling
+
+The styling system uses SCSS with a modular approach:
+
+- **Base**: Reset, variables, typography, and theme
+- **Components**: Buttons, forms, cards, loaders
+- **Layouts**: Header, footer, grid
+- **Pages**: Auth, dashboard
+- **Utilities**: Helper classes
+
+## Usage
+
+### Switching Themes
+
+Click the theme switcher icon in the header to toggle between light and dark themes. The application will remember your preference for future visits.
+
+### Authentication
+
+- **Login**: Access your account through the login page
+- **Register**: Create a new account through the registration page
+
+### Customer Features
+
+- View dashboard with loan summary
+- Apply for new loans
+- Track existing loan status
+- Manage repayments
+- Update profile information
+
+### Admin Features
+
+- Review and approve/reject loan applications
+- Manage user accounts
+- View comprehensive reports
+- Configure system settings
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
 ### Analyzing the Bundle Size
 

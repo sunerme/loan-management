@@ -1,0 +1,25 @@
+/* Main SCSS File */
+
+// Base styles
+@import 'base/reset';
+@import 'base/variables';
+@import 'base/typography';
+@import 'base/theme';
+
+// Components
+@import 'components/buttons';
+@import 'components/forms';
+@import 'components/cards';
+@import 'components/loaders';
+
+// Layouts
+@import 'layouts/header';
+@import 'layouts/footer';
+@import 'layouts/grid';
+
+// Pages
+@import 'pages/auth';
+@import 'pages/dashboard';
+
+// Utilities
+@import 'utilities';
